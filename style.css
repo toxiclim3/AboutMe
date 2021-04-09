@@ -1,0 +1,225 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+font-family: 'Ubuntu', sans-serif;
+text-align: justify;
+font-weight: 300;
+text-shadow: 2px 4px 5px rgba(0,0,0,0.5)
+}
+.bolden{font-weight: 700}
+header
+{
+	width:100%;
+	height: 100vh;
+	background: url(img/bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+header menu
+{
+	width: 100%;
+	padding: 2% 0;
+	background: linear-gradient(to right, #00cc99, #ff55a3);
+	/*main colors:(to right, #00cc99, #ff55a3)*/
+	/*alternate colors: (to right, #7fffd4, #fa8072)*/
+	display: flex;
+	justify-content: center;
+}
+header menu ul li
+{
+	display: inline-block;
+	padding: 0.2em;
+	margin-left: 1em;
+	cursor: pointer;
+	text-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+	font-size:x-large;
+}
+header menu ul li a
+{
+	color:#000a17;
+	text-decoration: none;
+}
+
+menu ul li a:hover{color:#36454f}
+menu ul li a.active
+{
+	color:#99aab5;
+	background:#23272a;
+	border-radius: 4px;
+	border:1px solid #002e63;
+	cursor:not-allowed; 
+}  
+header h1
+{
+	text-align: center;
+	font-size: 10em;
+	padding-top: 10%;
+	font-weight: 700;
+	color: rgba(0,0,0,0.6);
+}
+header p
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+div.second
+{
+	width:100%;
+	height: 600px;
+	background: linear-gradient(to bottom, #76adde, #003399);
+	text-align: start;
+	color:#e7feff;
+	padding: 5%;
+	line-height: 250%;
+	position: relative;
+}
+div.second h1
+{
+	font-size: 3em;
+}
+div.second p
+{
+	font-size: 1.5em;
+}
+div.second img
+{
+	width:20%;
+	float: right;
+	border-radius: 6px;
+}
+img:hover
+{
+	transform: scale(1.1);
+	transition:0.3s;
+}
+div.third
+{
+	width:100%;
+	height: 1550px;
+	background:#003399;
+	text-align: start;
+	color:#e7feff;
+	padding: 5%;
+	line-height: 250%;
+	position: relative;
+}
+div.third div.container
+{
+	display:flex;
+	border: 2px solid #36454f;
+	margin:1em auto;
+	padding: 20px;
+	width:80% ;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap: wrap;
+	background: #002e63;
+}
+div.third div.container div.box
+{
+	width: 30%;
+	height:25%;
+	/*flex-basis:5%;*/
+	background: #0047ab;
+	border-radius: 6px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+	overflow:hidden;
+	flex-basis: 40%;
+	margin: 1em;
+}
+div.third div.container div.box img
+{
+	transform: scale(1.15);
+}
+div.third div.container div.box:hover
+{
+	transform: scale(1.05);
+	transition:0.3s;
+}
+div.third div.container div.box img:hover
+{
+	transform: scale(1.25);
+	transition:1.5s;
+}
+
+img.makesmol
+{
+	width:100%;
+}
+
+.sb
+{
+	font-size: 2em;
+}
+div.fourth
+{
+	width:100%;
+	height: 500px;
+	background:#003399;
+	text-align: start;
+	color:#e7feff;
+	padding: 5%;
+	line-height: 250%;
+	position: relative;
+	display: flex;
+	overflow:hidden;
+}
+div.fourth video
+{
+	padding: 0;
+	position: absolute;
+	left:40%;
+	top:35%;
+	float:right;
+	background: #002e63;
+	border-radius: 6px;
+	border:3px inset black;
+}
+div.fifth
+{
+	width:100%;
+	height: 200px;
+	background:#003399;
+	text-align: start;
+	color:#e7feff;
+	position: relative;
+}
+div.fifth div
+{
+	height:22%;
+	width:auto;
+	font-size: 2em;
+	background:#0047ab;
+	display: inline-block;
+	margin:0 1%;
+	border-radius:5px ;
+	border:3px outset #0047ab;
+	text-align: center;
+}
+div.fifth div a
+{
+	color:#e7feff;
+	text-decoration: none;
+}
+div.fifth div a:hover
+{
+	cursor: pointer;
+	color:#ffcba4;
+}
+.fa-steam{color:#171a21;}
+.fa-discord{color:#7289da;}
+.fa-youtube{color:#e3321a;}
+.fa-twitch{color:#6441A4;}
+.fa-soundcloud{color:#ff7700;}
+/*------------------------adaptation-------------------------*/
+/*---------------------probably missing----------------------*/
+@media (min-width: 320px) and (max-width: 600px)
+
+body
+{
+
+}
